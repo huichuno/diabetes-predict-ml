@@ -13,14 +13,18 @@ Machine learning project for diabetes disease detection. This project uses Logis
 
 ### Installation
 ```sh
-git clone <repo> && cd <repo>
+git clone https://github.com/huichuno/diabetes-predict-ml.git && cd diabetes-predict-ml
 
 uv sync
-
-# launch visual studio code > open: "diabetes.ipynb" notebook
 ```
 
-### Visual Studio Code
+### Usage
+
+* Model training notebook: **diabetes.ipynb**
+
+* Model inference notebook: **model_inference.ipynb**
+
+## How to configure Visual Studio Code
 
 #### Select python intepreter
 * Press "ctrl + shift + p" > type "Python: Select Intepreter" > select "diabetes-predict-ml" venv
