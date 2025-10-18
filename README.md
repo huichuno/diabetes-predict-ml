@@ -24,6 +24,18 @@ uv sync
 
 * Model inference notebook: **model_inference.ipynb**
 
+## How to launch *Diabetes Xpert Web App*
+
+* Train and generate ML models using **diabetes.ipynb** notebook. Model files will be created in *bin* folder
+
+* Launch web app
+```sh
+uv run streamlit run app.py
+
+# Web app will open automatically in the browser.
+# Otherwise, navigate to http://localhost:8501/ into your browswer.
+```
+
 ## How to configure Visual Studio Code
 
 #### Select python intepreter
