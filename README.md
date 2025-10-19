@@ -4,9 +4,10 @@ Machine learning project for diabetes disease detection. This project uses Logis
 
 ## Getting Started
 
-### Prerequisties
+### Prerequisites
 * uv  - https://docs.astral.sh/uv/getting-started/installation/
 * git - https://git-scm.com/downloads
+* vsc - https://code.visualstudio.com/download
 
 ### Supported OS
 * Windows 11
