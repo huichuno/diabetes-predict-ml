@@ -62,7 +62,9 @@ st.sidebar.write("Binary Classification:")
 model_option = st.sidebar.selectbox("Select model:", ["Select Model", "Logistic Regression", "Random Forest"], index=0)
 
 try:
-    im = Image.open(r".\assets\healthcare.png")
+    current_directory = os.getcwd()
+    image_path = os.path.join(current_directory, "assets", "healthcare.png")
+    im = Image.open(image_path)
     st.image(im, width=90)
 
     st.title("Diabetes Xpert") 
